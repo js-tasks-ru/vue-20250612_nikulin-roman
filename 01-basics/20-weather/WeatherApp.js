@@ -1,4 +1,4 @@
-import { ref, defineComponent, onMounted } from 'vue'
+import { defineComponent, onMounted } from 'vue'
 import { getWeatherData, WeatherConditionIcons } from './weather.service.ts'
 
 export default defineComponent({
